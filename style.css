@@ -6,7 +6,10 @@
 }
 
 header {
-  margin: 44px 0 144px 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0 80px 76px;
 }
 
 .link-header {
@@ -17,6 +20,13 @@ header {
   cursor: pointer;
   margin: 23px;
 }
+
+
+.button-header:hover{
+  background-color: #5a50cc;
+}
+
+
 
 .button-header {
   background: #665AE1;
@@ -70,9 +80,18 @@ p {
 }
 
 
+.button-main:hover {
+  background-color: #a2ed01; 
+}
+
+.button-main:active {
+  background-color: #9DD3F1; 
+}
+
 .button-main {
   width: 239px;
   height: 64px;
+  margin-bottom: 15px;
   border-radius: 30px;
   background: #ADFF00;
   border: none;
@@ -85,7 +104,7 @@ p {
 }
 
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 920px) {
 
 header {
   display: none;
@@ -127,3 +146,10 @@ p {
 
 
 
+
+
+
+
+
+/* utilizamos o inline-block nesse caso porque eu quero controlar o tamanho dela
+mas quero que fique na mesma linda do resto.
